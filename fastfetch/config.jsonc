@@ -18,14 +18,14 @@
     },
     "break",
     {
-      "key": "distro",
+      "key": "pc",
       "keyColor": "red",
-      "type": "os"
+      "type": "host"
     },
     {
       "key": "pc",
       "keyColor": "red",
-      "type": "host"
+      "type": "os"
     },
     {
       "key": "kernel",
