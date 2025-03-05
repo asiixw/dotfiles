@@ -47,13 +47,12 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return exec wezterm 
+bindsym $mod+Return exec kitty 
 
 # kill focused window
 bindsym $mod+Shift+q kill
 
 # Start rofi
-#bindsym $mod+d exec "rofi -modi drun,run -show drun"
 bindsym $mod+d exec --no-startup-id rofi -show drun
 
 # change focus
@@ -179,7 +178,7 @@ bindsym $mod+r mode "resize"
 
 # Windows
 gaps inner 10
-gaps outer 3
+gaps outer 1
 # smart_gaps off
 # hide_edge_borders smart
 default_border none
